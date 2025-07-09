@@ -11,4 +11,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # Post request to ChatGPT
+  post "ask", to: "chatbot#ask"
 end
