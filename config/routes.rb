@@ -13,5 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   # Post request to ChatGPT
-  post "ask", to: "chatbot#ask"
+  get "ask", to: "chatbot#ask"
 end
